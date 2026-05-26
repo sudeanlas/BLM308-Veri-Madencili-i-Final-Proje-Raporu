@@ -1,7 +1,0 @@
-{
-  "python.defaultInterpreterPath": "python",
-  "python.analysis.extraPaths": [
-    "./src"
-  ],
-  "files.encoding": "utf8"
-}
