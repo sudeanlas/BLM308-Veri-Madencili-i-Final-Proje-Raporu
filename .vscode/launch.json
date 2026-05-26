@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1 - Modelleri Eğit",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/train.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2 - Açıklanabilirlik Çıktıları",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/explain.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3 - Tahmin Arayüzü",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "app.py"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
